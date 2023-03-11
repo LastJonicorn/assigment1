@@ -171,7 +171,7 @@ export default function Gameboard ({route}) {
         name: playerName,
         date: date,
         time: time,
-        points: finalPoints          //Replace
+        points: finalPoints
       }
       try {
         const newScore = [...scores, playerPoints];

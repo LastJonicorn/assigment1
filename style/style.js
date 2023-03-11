@@ -8,12 +8,12 @@ export default StyleSheet.create({
   header: {
     marginTop: 30,
     marginBottom: 15,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#ff837a',
     flexDirection: 'row',
   },
   footer: {
     marginTop: 20,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#ff837a',
     flexDirection: 'row'
   },
   title: {
@@ -55,7 +55,7 @@ export default StyleSheet.create({
     margin: 30,
     flexDirection: "row",
     padding: 10,
-    backgroundColor: "#73CED6",
+    backgroundColor: "#ff837a",
     width: 150,
     borderRadius: 15,
     justifyContent: 'center',
@@ -89,7 +89,8 @@ export default StyleSheet.create({
     fontSize: 25,
     textAlign: 'center',
     margin: 10,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    backgroundColor: '#ff837a'
   },
   textInput:{
     borderWidth: 2,
